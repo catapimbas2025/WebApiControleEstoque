@@ -11,7 +11,7 @@
     {
         public int Id { get; set; }
         public int ProdutoId { get; set; }
-        public string Produto {  get; set; }
+        public required Produto Produto {  get; set; }
         public TipoMovimentacao Tipo {  get; set; }
         public int Quantidade { get; set; }
         public DateTime DataMovimentacao { get; set; }
